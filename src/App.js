@@ -3,12 +3,12 @@ import { useEffect, useState } from 'react';
 //import './App.css';
 
 const BIRD_SIZE =20;
-const GAME_WIDTH = 1000;
-const GAME_HEIGHT = 1000;
-const GRAVITY = 8;
-const JUMP_HEIGHT = 100;
+const GAME_WIDTH = 500;
+const GAME_HEIGHT = 500;
+const GRAVITY = 6;
+const JUMP_HEIGHT = 50;
 const OBSTACLE_WIDTH = 40;
-const OBSTACLE_GAP = 400;
+const OBSTACLE_GAP = 200;
 
 function App() {
   const [birdPosition, setBirdPosition] = useState(250);
